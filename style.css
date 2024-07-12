@@ -1,0 +1,372 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    height: 100%;
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+body::-webkit-scrollbar{
+    display: none;
+    
+}
+#main{
+    height:100%;
+    width: 100%;
+}
+
+
+
+
+
+
+#nav{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    overflow: hidden;
+    z-index: 999999;
+    pointer-events: none;
+}
+
+#overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    pointer-events: none;
+    display: flex;
+    z-index: 9999998999;
+}
+.overlays{
+    height: 100%;
+    width: 33.33%;
+    position: relative;
+    background-color: #F06446;   
+}
+
+
+
+
+
+
+#home{
+    width: 535vw;
+    height: 100%;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+#home::-webkit-scrollbar{
+    display: none;
+}
+
+#home1{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+#home1imgdiv{
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    position: absolute;
+}
+#home1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    
+}
+
+#overlayhome{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.432);
+    color: #fff;
+    z-index: 9;
+    pointer-events: none;
+}
+#overlayhome p{
+    width: 40rem;
+    font-size: 2rem; 
+    position: absolute;
+    top: 8%;
+    left: 70%;
+}
+#h1forhome1{
+    width: 95vw;
+    height: 30vh;
+    overflow: hidden;
+    /* background-color: #F06446; */
+    position: absolute;
+    top: 65%;
+    left: 5%;
+}
+
+#overlayhome #h1forhome1 h1{
+    font-size: 18rem;
+    font-weight: 100;
+    letter-spacing: 7px;
+    transform-origin: 0% 50% 0px;
+    transform: rotate(60deg);
+    position: absolute;
+    top: 120%;
+}
+#home2{
+    height: 100vh;
+    width: 40vw;
+    position: relative;
+    background-color: #fff;
+    
+}
+#home2 >h1{
+    font-size: 2rem;
+    position: absolute;
+    top: 5%;
+    left: 7%;
+}
+#home2imgdiv{
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: 55%;
+    top: 5%;
+    overflow: hidden;
+}
+#home2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+    cursor: pointer;
+}
+
+#home2 #home2Text{
+    position: absolute;
+    top: 80%;
+    left: 7%;
+    width: 30rem;
+}
+#home2 #home2Text h1{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+#home3{
+    position: relative;
+    display: flex;
+    gap: 3rem;
+    height: 100vh;
+    /* background-color: rebeccapurple; */
+    padding: 3rem;
+}
+.home3imgdiv{
+    width: 70rem;
+    height: 65rem;
+    overflow: hidden;
+}
+#home3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#home3 h1{
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+#home4{
+    height: 100vh;
+    display: flex;
+    /* gap: 3rem; */
+    position: relative;
+}
+#home4 #home41{
+    width: 75rem;
+    height: 100vh;
+    background-color: #fff;
+    position: relative;
+}
+#home4 #home41 h4{
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    font-size: 1.5rem;
+}
+#home4 #home41 h1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 100;
+    transform: translate(-50%,0%);
+}
+#home4 #home41 #afirst{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    font-weight: 100;
+    transform: translate(-50%,0%);
+}
+
+#home4 #home41 #afirst:hover{
+    text-decoration: underline;
+}
+#home4 #home41 #aSecond{
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    transform: translate(-50%,0%);
+}
+#home4 #home41 #aSecond:hover{
+    text-decoration: underline;
+}
+
+
+#home42 {
+    width: 75rem;
+    overflow: hidden;
+    height: 100vh;
+}
+#home42 img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#home43 {
+    width: 85rem;
+    overflow: hidden;
+    height: 100vh;
+    position: relative;
+    background-color: #F06446;
+}
+#home43 h1{
+    color: #fff;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    width: 40rem;
+    font-size: 3rem;
+    font-weight: 100
+}
+#home4 #home43 a{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    text-decoration: none;
+    color:#fff;
+    font-size: 1.5rem;
+}
+#home4 #home43 a:hover{
+    text-decoration: underline;
+}
+
+#home4 #home43 h2{
+    position: absolute;
+    bottom: -3%;
+    left: 2%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 26rem;
+    font-weight: 100;
+    letter-spacing: .6rem;
+}
+#home44{
+
+    position: relative;
+    display: flex;
+    gap: 3rem;
+    height: 100vh;
+    /* background-color: rebeccapurple; */
+    padding: 3rem;
+}
+#home44 #home44First{
+    width: 75rem;
+    height: 65rem;
+    overflow: hidden;
+}
+#home44Firstimgdiv{
+    width: 100%;
+    height: 95%;
+    overflow: hidden;
+}
+#home44 #home44First img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#home44 #home44Second{
+    width: 70rem;
+    height: 65rem;
+    object-fit: cover;
+    overflow: hidden;
+    /* background-color: #F06446; */
+    object-position: center;
+}
+.home44Secondimgdiv{
+    width: 100%;
+    height: 45%;
+    overflow: hidden;
+}
+#home44 #home44Second img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#home44 h1{
+     margin-top: .5rem;
+}
+
+#home img{
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 2s;
+}
+
+#home img:hover{
+    scale: 1.3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
